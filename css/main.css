@@ -88,21 +88,26 @@ color: black;
     border:15px solid white;
 }
 .kepjobb{
-    text-align: right;
+    text-align: left;
+    width: 50%;
     vertical-align: middle;
     margin-right: 10%;
+    padding-top: 10%;
+    font-size: 110%;
 }
 .kepkozep{
     text-align:center;
     vertical-align: middle;
+    min-width: 20%;
+    padding-top: 10%;
+    font-size: 110%;
 }
 .kepbal{
     text-align: left;
-   /* margin-right: 10%;*/
     margin-left: 10%;
-    
     padding-left: 0px;
     padding-right: 0px;
+    width: 60%;
 }
 .kep{
     display: block;
@@ -155,7 +160,8 @@ img{
 .racs{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-	margin:4%;
+	margin-left:10%;
+    margin-right: 10%;
     box-sizing: border-box;
 	grid-gap: 1%;
     text-align: center;
