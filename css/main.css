@@ -1,0 +1,165 @@
+body{background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/webb.png);
+    
+    font-family: 'Source Sans Pro', sans-serif;}
+div{
+    margin: 10px 10px 10px 10px;
+    padding:12px;
+    font-size: 35px;
+    
+}
+a{
+    text-decoration: none;
+      color:black
+}
+p{
+    font-size: 35px;
+}
+.navgomb{
+display: inline-block;
+font-size: 25px;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+border: 2px solid black;
+border-radius: 15px;
+background-color: white;
+width: 25%;
+text-align: center;
+vertical-align: middle;
+font-weight: 900;
+
+}
+H2{
+    margin-left: 10%;
+}
+
+.navgomb:hover{
+	background-color: rgb(204, 204, 204);
+    transition: 0.7s;
+}
+
+.kezdokep~ :hover{
+	cursor: pointer;
+	transition-delay: 4.20s;
+	opacity: 1;
+}
+
+.kezdokep:hover {
+    transition-delay: 4.20;
+    opacity: 1;
+    animation-delay: 4s;
+}
+.flex{
+    display: flex;
+}
+.dokkep{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-left: 10%;
+    margin-right: 10%;
+  text-align: justify;
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+
+.bemutatkozas{
+   margin-left: 10%;
+   margin-bottom: 15%;
+   font-weight: 900;
+   text-align: justify;
+}
+
+.nev{
+font-size: 3rem;
+color: black;
+}
+
+.lablec{
+    vertical-align: text-bottom;
+    justify-content: center;
+    font-size: 15px;
+    color: rgb(204, 210, 218);
+}
+.tablazat{
+    text-align: center;
+    border:15px solid white;
+}
+.kepjobb{
+    text-align: right;
+    vertical-align: middle;
+    margin-right: 10%;
+}
+.kepkozep{
+    text-align:center;
+    vertical-align: middle;
+}
+.kepbal{
+    text-align: left;
+   /* margin-right: 10%;*/
+    margin-left: 10%;
+    
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.kep{
+    display: block;
+    border: 2px solid white;
+    border-radius: .5rem;
+    display: block;
+}
+.kezdokep{
+    float:right;
+    border-radius: .5rem;
+    margin-right: 10%;
+    width: 25%;
+    height: 25%;
+    cursor:pointer;
+    padding: 1rem;
+    font-weight: 900;
+}
+.fooldalnev{
+    padding-top: 0;
+    padding-bottom: 0;
+    border:2px solid black;
+}
+.portf{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size:40px;
+    font-weight: 500;
+    border:2px solid black;
+    border-radius: 15px;
+    font-weight: 900;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+.keret{
+    border:2px solid black;
+    border-radius: 5;
+}
+.center{
+    justify-content: center;
+    max-width: 80%;
+    min-width: 80%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px ;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+.racs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	margin:4%;
+    box-sizing: border-box;
+	grid-gap: 1%;
+    text-align: center;
+}
+.szoveg{
+
+    font-weight: 900;
+}
